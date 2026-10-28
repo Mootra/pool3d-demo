@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0-alpha.11-demo",
+  "date": "2026-10-28",
+  "platform": "windows-x64",
+  "godot": "4.5.1",
+  "source_commit": "aaabf9349125c9f29d68e8ce20bdc553be54106b",
+  "features": [
+    "ai-training",
+    "practice-layout",
+    "global-view",
+    "first-person-view"
+  ],
+  "verification": {
+    "headless_checks": 15,
+    "windows_checks": 11,
+    "native_gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 821,
+      "sha256": "d27f5c85a1c508d3266da2f1fe58a43f0e2135c722822f5f027fab1f21948963"
+    },
+    {
+      "file": "licenses/audio/ATTRIBUTION.md",
+      "bytes": 3155,
+      "sha256": "db3362ab90334aee8877395e08837923d53e25df6eff7c20ce4d5f0952b2b87a"
+    },
+    {
+      "file": "licenses/audio/CC-BY-4.0.txt",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    {
+      "file": "licenses/audio/CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "file": "licenses/godot/COPYRIGHT.txt",
+      "bytes": 97253,
+      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
+    },
+    {
+      "file": "licenses/godot/LICENSE.txt",
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "file": "licenses/noto/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "file": "licenses/room_assets/ATTRIBUTION.md",
+      "bytes": 2164,
+      "sha256": "875829d9f943d06a1595c78373d42d49a57951fc37d9f6476e58de90d1c9cd90"
+    },
+    {
+      "file": "licenses/room_assets/CC-BY-4.0.txt",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    {
+      "file": "licenses/room_assets/CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "file": "licenses/room_assets/kenney-input-license.txt",
+      "bytes": 680,
+      "sha256": "f4bb906ea755dd39a3c0277114a17776b3dbb1d58d3f9191eeae5d2c493a21e3"
+    },
+    {
+      "file": "licenses/room_assets/kenney-interface-license.txt",
+      "bytes": 553,
+      "sha256": "cefbf7ebb51b02ecf4748b1112d5c6a2d04aa0ea82e885e74680b62ea6d3a712"
+    },
+    {
+      "file": "licenses/room_assets/sources.json",
+      "bytes": 2242,
+      "sha256": "f831d839508c46c440cca7d9652d7503b11f0c9c4eeebeb2946163234cdc697d"
+    },
+    {
+      "file": "pool3d-demo.exe",
+      "bytes": 125418280,
+      "sha256": "8c558e96cdee519f8ebb3ea0033cc3f7c3d253c6bbae6008c49f58b92c0df020"
+    }
+  ]
+}
