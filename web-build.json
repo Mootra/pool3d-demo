@@ -1,0 +1,125 @@
+{
+  "platform": "web",
+  "release_tag": "v1.0.0-alpha.11-demo",
+  "asset": "pool3d-demo-web.zip",
+  "site_path": "play/alpha11",
+  "source_commit": "aaabf9349125c9f29d68e8ce20bdc553be54106b",
+  "godot": "4.5.1-stable",
+  "archive_sha256": "4bbf931045606197d636e9016d1351ad16b570ec0e9e21365afc37f879f8c970",
+  "archive_bytes": 38180032,
+  "packed_resources": 323,
+  "files": {
+    "index.144x144.png": {
+      "bytes": 24938,
+      "sha256": "14017804e8f7f37a7818f2f109f0a07d2394cac6da8f4c164a8b64de70cf8b29"
+    },
+    "index.180x180.png": {
+      "bytes": 35555,
+      "sha256": "8417cfe73e3108b5f60aee82d432c2b0d9f1c5e49078eb77c80fa913de1adb5e"
+    },
+    "index.512x512.png": {
+      "bytes": 173069,
+      "sha256": "01315c0ae982102111a84dd7d44927381a2dc07ef75818e846e91f8ed32a5266"
+    },
+    "index.apple-touch-icon.png": {
+      "bytes": 35910,
+      "sha256": "b0708cafe9c3475ca865fd302170d53d35112c95e2b4cc930c9d7be92c1baeac"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 4526,
+      "sha256": "23b61d5c73b7ddd3c57dccfd0e410a34fd6336274d716a0ab3061fc03f960b46"
+    },
+    "index.icon.png": {
+      "bytes": 206402,
+      "sha256": "05009c5a609df8b38873d1c7e5d8f145099a62cec1bfa1e11388f8dc7dcb7f83"
+    },
+    "index.js": {
+      "bytes": 358024,
+      "sha256": "6f74d38f35066e0fd6e9b9f265af4c88a36f113726de9fbba9b50dd939bf7b2e"
+    },
+    "index.manifest.json": {
+      "bytes": 340,
+      "sha256": "cd3a1286face3d188db9a58d84af328925c4786ce6aa26b3a351d8f5272c0f73"
+    },
+    "index.offline.html": {
+      "bytes": 392,
+      "sha256": "0dea73d9c27191b8fdedb854d94183f767735172b5f2cf12d40a03de411884e6"
+    },
+    "index.pck": {
+      "bytes": 28664920,
+      "sha256": "a5d6f776792eb986f0c67e687270babad790a4b5e6926e95c6c6ade1fc2db1a9"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.service.worker.js": {
+      "bytes": 5837,
+      "sha256": "167632b5cc3d39c3b153deddcd58a64d56d3297576fcd784da996a8ea9e5ff7d"
+    },
+    "index.wasm": {
+      "bytes": 37322260,
+      "sha256": "6156c355cd6b358ce315493382786db794a13ae4d48e89918407e6e504e2f1bf"
+    },
+    "licenses/audio/ATTRIBUTION.md": {
+      "bytes": 3155,
+      "sha256": "db3362ab90334aee8877395e08837923d53e25df6eff7c20ce4d5f0952b2b87a"
+    },
+    "licenses/audio/CC-BY-4.0.txt": {
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    "licenses/audio/CC0-1.0.txt": {
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "licenses/godot/COPYRIGHT.txt": {
+      "bytes": 97253,
+      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
+    },
+    "licenses/godot/LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "licenses/index.html": {
+      "bytes": 1057,
+      "sha256": "98bf34c4f140e40f44575f82e269b751b37000a1db9a6b8a2be36df7ff986e60"
+    },
+    "licenses/noto/OFL.txt": {
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    "licenses/room_assets/ATTRIBUTION.md": {
+      "bytes": 2164,
+      "sha256": "875829d9f943d06a1595c78373d42d49a57951fc37d9f6476e58de90d1c9cd90"
+    },
+    "licenses/room_assets/CC-BY-4.0.txt": {
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    "licenses/room_assets/CC0-1.0.txt": {
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "licenses/room_assets/kenney-input-license.txt": {
+      "bytes": 680,
+      "sha256": "f4bb906ea755dd39a3c0277114a17776b3dbb1d58d3f9191eeae5d2c493a21e3"
+    },
+    "licenses/room_assets/kenney-interface-license.txt": {
+      "bytes": 553,
+      "sha256": "cefbf7ebb51b02ecf4748b1112d5c6a2d04aa0ea82e885e74680b62ea6d3a712"
+    },
+    "licenses/room_assets/sources.json": {
+      "bytes": 2242,
+      "sha256": "f831d839508c46c440cca7d9652d7503b11f0c9c4eeebeb2946163234cdc697d"
+    }
+  }
+}

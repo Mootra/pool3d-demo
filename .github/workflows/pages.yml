@@ -1,0 +1,57 @@
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "web-build.json"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Assemble the site with the published Web build
+        shell: bash
+        run: |
+          tag=$(jq -er .release_tag web-build.json)
+          asset=$(jq -er .asset web-build.json)
+          site_path=$(jq -er .site_path web-build.json)
+          hash=$(jq -er .archive_sha256 web-build.json)
+          archive="$RUNNER_TEMP/$asset"
+          curl --fail --location --retry 3 --output "$archive" \
+            "https://github.com/$GITHUB_REPOSITORY/releases/download/$tag/$asset"
+          printf '%s  %s\n' "$hash" "$archive" | sha256sum --check
+          mkdir -p "docs/$site_path"
+          unzip -q "$archive" -d "docs/$site_path"
+          test -s "docs/$site_path/index.wasm"
+          test -s "docs/$site_path/index.pck"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d19">
+  <meta name="description" content="123台球是中式八球训练游戏，提供浏览器试玩和 Windows 下载。">
+  <title>123台球 · 中式八球训练</title>
+  <link rel="icon" href="media/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="site-nav frame">
+    <a class="brand" href="./"><img src="media/app-icon.png" width="36" height="36" alt="">123台球</a>
+    <nav aria-label="页面导航">
+      <a href="#controls">操作</a>
+      <a href="https://github.com/Mootra/pool3d-demo">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero frame" aria-labelledby="title">
+      <div class="hero-copy">
+        <h1 id="title">123台球</h1>
+        <p class="intro">中式八球训练游戏，支持 2D 全桌和 3D 第一人称。</p>
+        <div class="actions">
+          <a class="button primary" href="play/alpha11/">浏览器试玩</a>
+          <a class="button secondary" href="https://github.com/Mootra/pool3d-demo/releases/tag/v1.0.0-alpha.11-demo">下载 Windows 版</a>
+        </div>
+        <p class="platform">桌面浏览器 · 鼠标与键盘 · 免登录</p>
+      </div>
+      <figure class="hero-shot">
+        <img src="media/training.webp" width="1600" height="900" fetchpriority="high" alt="人机对战开局，斜俯视球桌上摆有母球和十五颗目标球">
+      </figure>
+    </section>
+    <div class="details frame">
+      <section class="features" aria-labelledby="features">
+        <h2 id="features">试玩内容</h2>
+        <div class="feature-list">
+          <section>
+            <h3>人机对战</h3>
+            <p>三档难度，可在局中调整。玩家与 AI 共用球路模拟和裁判规则。</p>
+          </section>
+          <section>
+            <h3>击球练习</h3>
+            <p>内置中袋直球、底袋切球和贴库长球，支持自定义摆球。停球后按 <kbd>R</kbd> 重摆。</p>
+          </section>
+        </div>
+      </section>
+      <section class="controls" aria-labelledby="controls">
+        <figure>
+          <img src="media/first-person.webp" width="1600" height="900" loading="lazy" alt="第一人称练习中，球杆伸向母球，台面远处是一号黄球">
+        </figure>
+        <div>
+          <h2 id="controls">操作</h2>
+          <dl>
+            <dt>2D 全桌</dt>
+            <dd>鼠标瞄准，左键后拉、松开出杆。单击锁定方向后用滚轮微调。</dd>
+            <dt>3D 第一人称</dt>
+            <dd>点击球桌锁定鼠标。按住 <kbd>Ctrl</kbd> 后拉、前送出杆，按 <kbd>Esc</kbd> 释放鼠标。</dd>
+          </dl>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer frame">
+    <span>123台球 · alpha.11</span>
+    <a href="play/alpha11/licenses/">第三方许可</a>
+  </footer>
+</body>
+</html>
