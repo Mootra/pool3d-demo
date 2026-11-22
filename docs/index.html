@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101d19">
-  <meta name="description" content="123台球是中式八球训练游戏，提供浏览器试玩和 Windows 下载。">
-  <title>123台球 · 中式八球训练</title>
+  <meta name="description" content="123台球是中式八球游戏：公开试玩可离线打 AI，私人完整版和固定朋友开球房、邀请、断线恢复与在线战绩。">
+  <title>123台球 · 中式八球</title>
   <link rel="icon" href="media/app-icon.png" type="image/png">
   <link rel="stylesheet" href="site.css">
 </head>
@@ -13,45 +13,71 @@
   <header class="site-nav frame">
     <a class="brand" href="./"><img src="media/app-icon.png" width="36" height="36" alt="">123台球</a>
     <nav aria-label="页面导航">
+      <a href="#try">试玩</a>
+      <a href="#full">完整版</a>
       <a href="#controls">操作</a>
-      <a href="https://github.com/Mootra/pool3d-demo">GitHub</a>
+      <a href="https://github.com/Mootra/pool3d">GitHub</a>
     </nav>
   </header>
   <main>
     <section class="hero frame" aria-labelledby="title">
       <div class="hero-copy">
         <h1 id="title">123台球</h1>
-        <p class="intro">中式八球训练游戏，支持 2D 全桌和 3D 第一人称。</p>
+        <p class="intro">中式八球。先和 AI 打一局，再和朋友开一桌。</p>
         <div class="actions">
-          <a class="button primary" href="play/alpha11/">浏览器试玩</a>
-          <a class="button secondary" href="https://github.com/Mootra/pool3d-demo/releases/tag/v1.0.0-alpha.11-demo">下载 Windows 版</a>
+          <a class="button primary" href="play/alpha11/">在线试玩</a>
+          <a class="button secondary" href="https://github.com/Mootra/pool3d/releases/tag/v1.0.0-alpha.11">下载 Windows 版</a>
         </div>
-        <p class="platform">桌面浏览器 · 鼠标与键盘 · 免登录</p>
+        <p class="platform">公开试玩免登录 · 桌面浏览器 · 鼠标与键盘</p>
       </div>
       <figure class="hero-shot">
         <img src="media/training.webp" width="1600" height="900" fetchpriority="high" alt="人机对战开局，斜俯视球桌上摆有母球和十五颗目标球">
       </figure>
     </section>
     <div class="details frame">
-      <section class="features" aria-labelledby="features">
-        <h2 id="features">试玩内容</h2>
+      <section class="features" id="try" aria-labelledby="try-title">
+        <h2 id="try-title">公开试玩</h2>
+        <p class="section-intro">免登录，离线可玩。2D 全桌和 3D 第一人称都能完整打完一局。</p>
         <div class="feature-list">
           <section>
             <h3>人机对战</h3>
-            <p>三档难度，可在局中调整。玩家与 AI 共用球路模拟和裁判规则。</p>
+            <p>三档难度，局中可换。换档保留当前球局和比分，已经击出的球照常完成。</p>
           </section>
           <section>
             <h3>击球练习</h3>
-            <p>内置中袋直球、底袋切球和贴库长球，支持自定义摆球。停球后按 <kbd>R</kbd> 重摆。</p>
+            <p>中袋直球、底袋切球和贴库长球，也可以自己摆球。停球后按 <kbd>R</kbd> 重摆。</p>
           </section>
         </div>
       </section>
-      <section class="controls" aria-labelledby="controls">
+      <section class="features complete" id="full" aria-labelledby="full-title">
+        <h2 id="full-title">完整版</h2>
+        <p class="section-intro">完整版是私人版本，只和固定朋友使用，不公开下载。多出的，是一间只属于你们的球房。</p>
+        <div class="feature-list">
+          <section>
+            <h3>好友球房</h3>
+            <p>用预先开好的账号登录，看到四张球桌。点桌卡开桌或入座，也可以直接邀请在线朋友，不用输入房间码。</p>
+          </section>
+          <section>
+            <h3>准备与再战</h3>
+            <p>双方准备后开球，每局独立判胜。结算后留在原桌再来一局，开球权轮换。</p>
+          </section>
+          <section>
+            <h3>断线恢复</h3>
+            <p>掉线后座位保留两分钟，球继续走。重新登录可以申请接回原局和比分。</p>
+          </section>
+          <section>
+            <h3>在线战绩</h3>
+            <p>只有双方都登录的好友局才计入账号，每局只记一次。练习和人机成绩不混进来。</p>
+          </section>
+        </div>
+        <p class="note">完整版还有三套球房风格、菜单音乐和对局内聊天。它不是公开平台：没有路人匹配、公开注册或排位。</p>
+      </section>
+      <section class="controls" id="controls" aria-labelledby="controls-title">
         <figure>
           <img src="media/first-person.webp" width="1280" height="720" alt="第一人称练习视角，球杆、母球和中袋前的一号黄球对齐">
         </figure>
         <div>
-          <h2 id="controls">操作</h2>
+          <h2 id="controls-title">操作</h2>
           <dl>
             <dt>2D 全桌</dt>
             <dd>鼠标瞄准，左键后拉、松开出杆。单击锁定方向后用滚轮微调。</dd>
@@ -64,7 +90,7 @@
   </main>
   <footer class="site-footer frame">
     <span>123台球 · alpha.11</span>
-    <a href="play/alpha11/licenses/">第三方许可</a>
+    <span><a href="play/alpha11/licenses/">第三方许可</a> · <a href="https://github.com/Mootra/pool3d">GitHub</a></span>
   </footer>
 </body>
 </html>

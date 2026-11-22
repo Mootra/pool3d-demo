@@ -1,12 +1,12 @@
 {
   "platform": "web",
-  "release_tag": "v1.0.0-alpha.11-demo",
-  "asset": "pool3d-demo-web.zip",
+  "release_tag": "v1.0.0-alpha.11",
+  "asset": "pool3d-web.zip",
   "site_path": "play/alpha11",
   "source_commit": "aaabf9349125c9f29d68e8ce20bdc553be54106b",
   "godot": "4.5.1-stable",
-  "archive_sha256": "4bbf931045606197d636e9016d1351ad16b570ec0e9e21365afc37f879f8c970",
-  "archive_bytes": 38180032,
+  "archive_sha256": "754fc7d863c2efba5d4a4598104bcbaa75545c5ebd2be9e8c0834bca4c6d383b",
+  "archive_bytes": 38114545,
   "packed_resources": 323,
   "files": {
     "index.144x144.png": {
@@ -34,8 +34,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 4526,
-      "sha256": "23b61d5c73b7ddd3c57dccfd0e410a34fd6336274d716a0ab3061fc03f960b46"
+      "bytes": 4516,
+      "sha256": "81a34f10a087230b247b89d75d81d88bf1f05ee05066180d62664a6650e9a313"
     },
     "index.icon.png": {
       "bytes": 206402,

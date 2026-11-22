@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-alpha.11-demo",
+  "version": "1.0.0-alpha.11",
   "date": "2026-10-28",
   "platform": "windows-x64",
   "godot": "4.5.1",
@@ -18,8 +18,13 @@
   "files": [
     {
       "file": "README.md",
-      "bytes": 821,
-      "sha256": "d27f5c85a1c508d3266da2f1fe58a43f0e2135c722822f5f027fab1f21948963"
+      "bytes": 500,
+      "sha256": "ae00c77f8ef2a543fe0cb84f00d83720ac206865787381198887fa8912a67da8"
+    },
+    {
+      "file": "pool3d.exe",
+      "bytes": 125418280,
+      "sha256": "8c558e96cdee519f8ebb3ea0033cc3f7c3d253c6bbae6008c49f58b92c0df020"
     },
     {
       "file": "licenses/audio/ATTRIBUTION.md",
@@ -80,11 +85,6 @@
       "file": "licenses/room_assets/sources.json",
       "bytes": 2242,
       "sha256": "f831d839508c46c440cca7d9652d7503b11f0c9c4eeebeb2946163234cdc697d"
-    },
-    {
-      "file": "pool3d-demo.exe",
-      "bytes": 125418280,
-      "sha256": "8c558e96cdee519f8ebb3ea0033cc3f7c3d253c6bbae6008c49f58b92c0df020"
     }
   ]
 }
