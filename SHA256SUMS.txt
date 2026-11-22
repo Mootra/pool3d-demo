@@ -1,2 +1,0 @@
-754fc7d863c2efba5d4a4598104bcbaa75545c5ebd2be9e8c0834bca4c6d383b  pool3d-web.zip
-5e2be85bbca318b8dc853046f9fc624b7df43a47bd9d6313fc5e2c6c621ee9df  pool3d-windows-x64.zip

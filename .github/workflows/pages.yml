@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - "docs/**"
-      - "web-build.json"
+      - ".github/pages-build.json"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -26,10 +26,10 @@ jobs:
       - name: Assemble the site with the published Web build
         shell: bash
         run: |
-          tag=$(jq -er .release_tag web-build.json)
-          asset=$(jq -er .asset web-build.json)
-          site_path=$(jq -er .site_path web-build.json)
-          hash=$(jq -er .archive_sha256 web-build.json)
+          tag=$(jq -er .release_tag .github/pages-build.json)
+          asset=$(jq -er .asset .github/pages-build.json)
+          site_path=$(jq -er .site_path .github/pages-build.json)
+          hash=$(jq -er .archive_sha256 .github/pages-build.json)
           archive="$RUNNER_TEMP/$asset"
           curl --fail --location --retry 3 --output "$archive" \
             "https://github.com/$GITHUB_REPOSITORY/releases/download/$tag/$asset"
